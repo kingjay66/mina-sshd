@@ -106,7 +106,7 @@
         <min.required.maven.version>3.5.0</min.required.maven.version>
         <groovy.version>3.0.11</groovy.version>
         <bouncycastle.version>1.70</bouncycastle.version>
-        <slf4j.version>1.7.32</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
         <slf4j.upper.bound>3</slf4j.upper.bound>
         <logback.version>1.2.11</logback.version>
         <spring.version>5.3.20</spring.version>
@@ -312,7 +312,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -327,7 +327,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -340,7 +340,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -353,7 +353,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -366,7 +366,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -379,7 +379,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -392,7 +392,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
@@ -1301,7 +1301,7 @@
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                     <message>No Snapshot Dependencies Allowed</message>
                                 </requireReleaseDeps>
-                                <dependencyConvergence />
+                                <dependencyConvergence/>
                             </rules>
                         </configuration>
                     </execution>
@@ -1576,7 +1576,7 @@
         <repository>
             <id>dummy</id>
             <name>Dummy to avoid accidental deploys</name>
-            <url />
+            <url/>
         </repository>
     </distributionManagement>
 
