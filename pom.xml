@@ -111,7 +111,7 @@
         <logback.version>1.2.11</logback.version>
         <spring.version>5.3.20</spring.version>
             <!-- NOTE: upgrading to 6.x requires Java 11 -->
-        <jgit.version>7.1.0.202411261347-r</jgit.version>
+        <jgit.version>7.2.0.202503040940-r</jgit.version>
         <junit.version>4.13.2</junit.version>
         <bytebuddy.version>1.12.6</bytebuddy.version>
         <testcontainers.version>1.16.2</testcontainers.version>
